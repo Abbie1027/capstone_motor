@@ -1,0 +1,16 @@
+firebaseConfig = {
+  'apiKey': "AIzaSyDFcKZxM45qSe9DmtSPoUwwVYilclTouKs",
+  'authDomain': "capstone-project-6325f.firebaseapp.com",
+  'databaseURL': "https://capstone-project-6325f-default-rtdb.firebaseio.com",
+  'projectId': "capstone-project-6325f",
+  'storageBucket': "capstone-project-6325f.appspot.com",
+  'messagingSenderId': "463650994151",
+  'appId': "1:463650994151:web:62f7742b008e5485726f42",
+  'measurementId': "G-E88E98P34S"
+};
+firebase = pyrebase.initialize_app(firebaseConfig)
+
+db = firebase.database()
+auth = firebase.auth()
+storage = firebase.storage()
+
